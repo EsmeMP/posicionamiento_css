@@ -14,7 +14,7 @@
 .blue-box {
     background-color: blue;
     position: sticky;
-    /* Modifica el lugar de los demas contenedores, no respeta su contenedor padre*/
+    /* No modifica el lugar de los demas contenedores, para ver eso se necesita tener una barra de scroll u overflow*/
     top: 10px;
 }
 
