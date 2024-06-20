@@ -5,6 +5,7 @@
     border: 1px solid rgb(221, 221, 21);
     padding: 20px;
     width: 400px;
+    position: relative;
 }
 
 .red-box {
@@ -15,8 +16,8 @@
     background-color: blue;
     position: absolute;
     /* Modifica el lugar de los demas contenedores */
-    top: 20px;
-    left: 50px;
+    bottom: 0px;
+    right: 20px;
 }
 
 .green-box {
