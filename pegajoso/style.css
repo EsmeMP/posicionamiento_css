@@ -1,0 +1,35 @@
+.container {
+    margin: 20px;
+    height: 200px;
+    border: 1px solid rgb(221, 221, 21);
+    padding: 20px;
+    width: 400px;
+    overflow-y: auto;
+}
+
+.red-box {
+    background-color: red;
+}
+
+.blue-box {
+    background-color: blue;
+    position: sticky;
+    /* Modifica el lugar de los demas contenedores, no respeta su contenedor padre*/
+    top: 10px;
+}
+
+.green-box {
+    background-color: green;
+}
+
+.purple-box{
+    background: #4d20bf;
+    height: 300px;
+    width: 100px;
+}
+
+.red-box, .blue-box, .green-box {
+    width: 100px;
+    height: 100px;
+    margin-right: 20px;
+}
