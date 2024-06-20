@@ -1,0 +1,36 @@
+.container {
+    margin: 20px;
+    height: 200px;
+    display: flex;
+    border: 1px solid rgb(221, 221, 21);
+    padding: 20px;
+    width: 400px;
+    position: static; /*Es el valor por defecto */
+}
+
+.red-box {
+    background-color: red;
+    position: relative;
+    /* bottom: 200px; No funciona por la posicion*/
+    top: 40px;
+    left: 130px;
+}
+
+.blue-box {
+    background-color: blue;
+    position: relative; /*No mueve los demas contenedores*/
+    top: 20px;
+    left: 70px;
+}
+/* Rojo azul verde escalonados */
+.green-box {
+    background-color: green;
+    top: 35px;
+    right: 120px;
+}
+
+.red-box, .blue-box, .green-box {
+    width: 100px;
+    height: 100px;
+    margin-right: 20px;
+}
