@@ -1,0 +1,31 @@
+.container {
+    margin: 20px;
+    height: 200px;
+    display: flex;
+    border: 1px solid rgb(221, 221, 21);
+    padding: 20px;
+    width: 400px;
+    position: relative;
+}
+
+.red-box {
+    background-color: red;
+}
+
+.blue-box {
+    background-color: blue;
+    position: fixed;
+    /* Modifica el lugar de los demas contenedores, no respeta su contenedor padre*/
+    top: 0;
+    left: 0;
+}
+
+.green-box {
+    background-color: green;
+}
+
+.red-box, .blue-box, .green-box {
+    width: 100px;
+    height: 100px;
+    margin-right: 20px;
+}
